@@ -28,6 +28,6 @@ public class ParamLionTest {
         Feline feline = new Feline();
         Lion lion = new Lion(sex, feline);
         boolean actualMane = lion.doesHaveMane();
-        Assert.assertEquals("Используйте допустимые значения пола животного - самец или самка", expectedMane, actualMane);
+        Assert.assertEquals("Ожидаемое значение гривы не совпало с фактическим", expectedMane, actualMane);
     }
 }

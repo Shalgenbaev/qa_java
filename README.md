@@ -15,5 +15,5 @@ Apache Maven 3.8.1
 
 Запуск всех тестов
 
-   mvn clean test -Dtest=AllTest
+mvn clean test -Dtest=AllTest
 
